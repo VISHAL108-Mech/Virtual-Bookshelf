@@ -4,8 +4,8 @@ A small Flask web app for keeping track of the books I've read. You can add a bo
 
 I built it to practice the basics of a database-backed web app: creating, reading, updating and deleting records (CRUD) with Flask and SQLAlchemy.
 
-<img width="450" height="300" alt="Screenshot 2026-11-03 204608" src="https://github.com/user-attachments/assets/f188dde8-80da-4436-b546-3ca15798e4f6" />
-<img width="450" height="300" alt="Screenshot 2026-11-03 204305" src="https://github.com/user-attachments/assets/bab2c1fe-501b-437d-8735-703819f22e16" />
+<img width="400" height="300" alt="Screenshot 2026-11-03 204608" src="https://github.com/user-attachments/assets/f188dde8-80da-4436-b546-3ca15798e4f6" />
+<img width="400" height="300" alt="Screenshot 2026-11-03 204305" src="https://github.com/user-attachments/assets/bab2c1fe-501b-437d-8735-703819f22e16" />
 
 ## What it can do
 
