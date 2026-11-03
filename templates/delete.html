@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delete Book</title>
+  </head>
+  <body>
+    <h1>Delete Book</h1>
+    <form action="{{ url_for('delete', id=book.id) }}" method="POST">
+      <p>
+        Are you sure you want to delete the book "{{ book.title }}" by {{
+        book.author }}?
+      </p>
+      <button type="submit">Yes, Delete</button>
+      <a href="{{ url_for('home') }}">Cancel</a>
+    </form>
+  </body>
+</html>
